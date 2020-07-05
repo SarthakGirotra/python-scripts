@@ -1,8 +1,4 @@
-# will improve this later
-
-
-# new comment
-
+#newest comment
 win = False
 Tie = False
 counter = 0
