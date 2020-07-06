@@ -70,7 +70,8 @@ def check_win():
 
 def check_Tie():
     global Tie
-    if(counter==9):
+    global win
+    if(counter==9 and win == False):
         print("Tie")
         Tie = True
     else:
@@ -84,14 +85,15 @@ def flip_Turn():
         it_='X'
     else:
         it_='O'
+    print(it_+"'s turn.")
 
-while(win == False and Tie == False):
+while(win == False or Tie == False):
     display_board()
     
     inp(it_)
     check_win()
+    check_Tie()
     if(win == True or Tie == True):
         display_board()
         break
-    
 
