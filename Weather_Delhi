@@ -9,7 +9,7 @@ three_day= soup.find(class_='three-day-panel three-day-forecast full-mobile-widt
 items=three_day.find_all(class_='day-panel')
 
 
-current=items[0]
+
 times = [item.find(class_='module-header').get_text() for item in items]
 dates = [item.find(class_='module-header sub date').get_text() for item in items]
 temps = [item.find(class_='temp').get_text() for item in items]
