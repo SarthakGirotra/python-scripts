@@ -32,8 +32,8 @@ phrase =remove_sp(phrase)
 
 weather = pd.DataFrame(
     {
-        '-Time-':times,
-        '-Date-':dates,
+        '-Period-':times,
+        '-Time-':dates,
         '-Temp-':temps,
         '-Real Feel-':real_feel,
         '-Desc-    ':phrase
