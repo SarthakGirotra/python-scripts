@@ -1,7 +1,3 @@
-# add comment
-
-
-
 win = False
 Tie = False
 counter = 0
