@@ -34,6 +34,8 @@ def display(list_):
             print('='*36, end='')
             print()
         for j in range(9):
+            if not j:
+                print(' ', end='')
             if j % 3 == 0 and not j == 0:
                 print(' ‖  ', end='')
             print(list_[i][j], ' ', end='')
