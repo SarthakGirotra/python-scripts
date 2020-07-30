@@ -1,10 +1,2 @@
-# python-scripts
-#Requirements
-
-Pandas
-
-Requests
-
-Beautiful Soup
-
-Regex
+weather_delhi - doesnt work more (weather site updated)
+sudoku solver - uses backtracking algorithm to solve sudoku (gives multiple correct answers)
